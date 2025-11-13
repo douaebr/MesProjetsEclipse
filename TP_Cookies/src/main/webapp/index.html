@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nouveau utilisateur</title>
+</head>
+<body>
+<form method="post" action="newUser">
+    <h1 align="center">Nouveau utilisateur</h1>
+    <table align="center">
+        <tr>
+            <td>Couleur de fond préférée</td>
+            <td>
+                <select name="bgColor">
+                    <option value="yellow">Jaune</option>
+                    <option value="red">Rouge</option>
+                    <option value="blue">Bleu</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Couleur de police préférée</td>
+            <td>
+                <select name="police">
+                    <option value="black">Noir</option>
+                    <option value="red">Rouge</option>
+                    <option value="blue">Bleu</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Type de livre préféré</td>
+            <td>
+                <select name="type">
+                    <option value="Programmation">Programmation</option>
+                    <option value="Sécurité">Sécurité</option>
+                    <option value="Ingénierie">Ingénierie</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Votre nombre préféré</td>
+            <td><input type="number" name="nbr" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Valider">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
